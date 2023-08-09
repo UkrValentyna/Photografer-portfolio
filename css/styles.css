@@ -1,6 +1,13 @@
+:root{
+  --main-font:font-family: 'Roboto', sans-serif;
+  --secondary-font:font-family: 'Montserrat', sans-serif;
+  
+}
+
+
 body {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family:var(--main-font);
   background-color: black;
 }
 
@@ -81,6 +88,5 @@ img {
   }
   h3 {
     font-size: 10px;
-    margin-top: 50px;
   }
 }
