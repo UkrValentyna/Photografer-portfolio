@@ -52,7 +52,9 @@ p {
   font-weight: normal;
   line-height: 2;
 }
-
+nav{
+  background-color: #202020;
+}
 .btn-branding {
   color: #272142;
   background-color: white;
@@ -126,6 +128,10 @@ img {
 
   .container-about{
     margin:0 10px;
+  }
+
+  h1.text-center{
+    margin-top: 20px;
   }
 }
 
