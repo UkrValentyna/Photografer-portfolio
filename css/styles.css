@@ -62,9 +62,9 @@ nav{
   padding: 18px 44px;
   font-weight: bold;
 }
-.btn-branding :hover {
+.btn-branding:hover {
   color: white;
-  background-color: #272142;
+  background-color:var(--accent-color);
 }
 
 img {
@@ -80,14 +80,18 @@ img {
   display: inline;
 }
 
-.navigation-links a :hover {
-  text-decoration: underline;
+.navigation-links a:hover {
+  color: var(--accent-color);
 }
 
 .social-links a {
   font-size: 20px;
   color: white;
   padding: 20px;
+}
+
+.social-links a:hover {
+color: var(--accent-color);
 }
 
 .conteiner-about{
@@ -120,14 +124,13 @@ font-size: 14px;
 font-size: 18px;
 }
 
-.opencource-links{
+.opencource-links  {
   color: white;
   font-size: 14px;
   text-decoration: none;
   
 }
-.opencource-links :hover{
-text-decoration: underline;
+.opencource-links:hover{
 color: var(--accent-color);
 }
 
