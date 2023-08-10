@@ -164,6 +164,8 @@ color: var(--accent-color);
  h3 {
     font-size: 10px;
   }
+  .opencource-links{
+  font-size: 10px;}
 
 }
 
